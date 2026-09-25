@@ -9,7 +9,7 @@
     document.querySelectorAll(".lang button").forEach(function (b) {
       b.setAttribute("aria-pressed", b.dataset.lang === l ? "true" : "false");
     });
-    var t = document.body.dataset["title" + l.toUpperCase()];
+    var t = document.body.dataset["title" + l.charAt(0).toUpperCase() + l.slice(1)];
     if (t) document.title = t;
   }
   document.querySelectorAll(".lang button").forEach(function (b) {
