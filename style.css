@@ -146,3 +146,19 @@ html[lang="it"] .store img[data-l="en"], html[lang="en"] .store img[data-l="it"]
 .proj b{display:block;font-family:"Arial Black",Georgia,serif;font-size:1.1rem;margin-bottom:6px}
 .proj span.d{color:var(--muted);font-size:.93rem}
 @media(max-width:700px){.ah{grid-template-columns:1fr;text-align:center;justify-items:center}}
+
+/* community + rules pages */
+.doc .lead{font-size:1.12rem;color:var(--text)}
+.doc .note{background:var(--card);border:1px solid var(--gold);border-radius:var(--radius);padding:18px 22px;margin:22px 0 8px;color:#e6dccd}
+.doc .note b{color:var(--gold2)}
+.doc ol.steps{padding-left:22px;margin-bottom:12px}
+.doc ol.steps li{margin-bottom:12px}
+.doc h3{font-size:1.15rem;margin:26px 0 8px}
+.doc .dls{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0 24px}
+.doc a.dl{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;color:var(--text)}
+.doc a.dl:hover{text-decoration:none;border-color:var(--gold)}
+.doc a.dl b{display:block;font-size:.98rem}
+.doc a.dl span{color:var(--muted);font-size:.84rem}
+.doc .cta-row{margin-top:26px}
+.doc.rules h2{font-size:1.3rem}
+.doc.rules p,.doc.rules li{font-size:.98rem}
